@@ -1,1 +1,7 @@
-
+git remote -v
+git remote add upstream https://github.com/mrrfortune/cis-211.git
+git fetch upstream
+git checkout -b class-collab upstream/class-collab
+git checkout -b feature-dev-willie-james
+git push -u origin feature-dev-willie-james
+git remote -v && git branch -a
